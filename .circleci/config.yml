@@ -36,7 +36,7 @@ jobs:
 
       - run: make deps 
 
-
+      - run: eslint
 
       - run: make test       
 
